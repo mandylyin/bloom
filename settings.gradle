@@ -1,0 +1,5 @@
+rootProject.name = 'bloom'
+include 'bloom-upms'
+findProject(':bloom-upms')?.name = 'bloomupms'
+rootProject.name = 'bloom'
+
